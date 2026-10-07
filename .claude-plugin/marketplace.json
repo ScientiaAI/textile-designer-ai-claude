@@ -1,0 +1,15 @@
+{
+  "name": "textile-designer-ai",
+  "description": "Textile Designer AI plugin for Claude: textile design AI tools on your image files.",
+  "owner": {
+    "name": "Scientia AI Private Limited",
+    "url": "https://www.textile-designer.ai"
+  },
+  "plugins": [
+    {
+      "name": "textile-designer-ai",
+      "source": "./",
+      "description": "Textile design AI tools on your image files: upscaling, repeats, colourways, Dress to Design, separation and more."
+    }
+  ]
+}

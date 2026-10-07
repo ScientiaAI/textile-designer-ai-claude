@@ -1,0 +1,19 @@
+{
+  "name": "textile-designer-ai",
+  "displayName": "Textile Designer AI",
+  "version": "0.1.0",
+  "description": "Textile design AI tools on your image files: print-ready upscaling, seamless repeats, colourways, Dress to Design, screen separation, vectorizing and more.",
+  "author": {
+    "name": "Scientia AI Private Limited",
+    "url": "https://www.textile-designer.ai"
+  },
+  "homepage": "https://www.textile-designer.ai",
+  "repository": "https://github.com/ScientiaAI/textile-designer-ai-claude",
+  "license": "MIT",
+  "keywords": ["textile", "fabric", "print", "repeat", "pattern", "upscale", "colourways", "design"],
+  "icon": "./logo.png",
+  "documentationUrl": "https://github.com/ScientiaAI/textile-designer-ai-claude#readme",
+  "supportUrl": "https://www.textile-designer.ai/contact",
+  "privacyPolicyUrl": "https://www.textile-designer.ai/privacy",
+  "termsOfServiceUrl": "https://www.textile-designer.ai/terms"
+}

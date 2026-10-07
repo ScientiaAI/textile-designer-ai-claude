@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "textile-designer-ai": {
+      "command": "npx",
+      "args": ["-y", "@textile-designer-ai/mcp@0.1.0"]
+    }
+  }
+}
