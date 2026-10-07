@@ -33,7 +33,9 @@ Ask Claude in plain words, for example:
 - "What would Dress to Design cost on dress.jpg with 2 outputs?"
 - "Upscale floral.png 4x, then separate it into 8 screens."
 
-When a tool has modes or settings you have not chosen, Claude asks you, with the recommended option preselected. Nothing is uploaded or charged until you answer.
+When a tool has modes or settings you have not chosen, Claude asks you, one question at a time, with the recommended option preselected. Nothing is uploaded or charged until you answer, and prices are shown only when you ask.
+
+Ask Claude things like "which tool should I use for a screen print?" or "how is Ready to Print different from Super Scaler?": it answers from the built-in Textile Designer AI guide.
 
 ## What this plugin runs and sends
 

@@ -11,10 +11,11 @@ The `textile-designer-ai` MCP server runs the Textile Designer AI website's tool
 
 1. If a tool reports `not_logged_in`, call `login`. A browser page opens with a code; the user approves it there. Then call `whoami` to confirm the account, credits and enabled tools.
 2. For "what can you do", call `list_tools`. For one tool's modes, controls and credit rule, call `describe_tool`.
+3. For "which tool should I use", "how does X compare with Y", "why does the result look like this" or questions about print basics, call `guide` and answer from it. Never name or guess the AI models behind the tools.
 
 ## Before running a tool
 
-- Never choose a mode or a setting for the user. If the user did not name a mode, call the tool without it: the server asks the user (a pick-list with the recommended option preselected) or returns the modes for you to show. Present them as choices, mark the recommended one, and wait for the answer.
+- Never choose a mode or a setting for the user. Offer every option; if your picker holds fewer choices than a question has, name the rest in the question. If the user did not name a mode, call the tool without it: the server asks the user (a pick-list with the recommended option preselected) or returns the modes for you to show. Present them as choices, mark the recommended one, and wait for the answer.
 - If the user has not said how to set the controls, offer to run with the recommended settings or to adjust them one by one. `review_settings: true` opens that flow.
 - When the user asks about cost, or a run would cost more than they clearly expect, call the tool with `estimate_only: true` and report the server's estimate. Do not quote prices from memory when an estimate is available.
 
