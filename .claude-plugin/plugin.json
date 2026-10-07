@@ -1,7 +1,7 @@
 {
   "name": "textile-designer-ai",
   "displayName": "Textile Designer AI",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Textile design AI tools on your image files: print-ready upscaling, seamless repeats, colourways, Dress to Design, screen separation, vectorizing and more.",
   "author": {
     "name": "Scientia AI Private Limited",
