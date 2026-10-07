@@ -43,6 +43,8 @@ Ask Claude things like "which tool should I use for a screen print?" or "how is 
 - It sends only the images you ask it to process, and the settings for that run, to `https://www.textile-designer.ai`, and downloads the results from Textile Designer AI's storage. It sends nothing else and runs nothing in the background.
 - Your login is a device-code sign-in in your browser. The session token is stored in `~/.textile-designer/mcp-session.json`, readable only by you, and is never shown in chat.
 - It also reads the list of image files in the input image's folder, only to count them for an optional one-time Image Search tip.
+- It reads your account's email, organisation, credit balance and plan from Textile Designer AI only to show them to you and to apply your plan's rules. Nothing is shared with anyone else.
+- Images and results you process are kept in your Textile Designer AI account Library, as described in the privacy policy below. Run `logout` to remove the stored session.
 
 ## Links
 
