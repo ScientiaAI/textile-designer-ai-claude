@@ -1,0 +1,10 @@
+{
+  "name": "textile-designer-ai-claude-plugin",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Claude plugin bundle for Textile Designer AI. Pins the MCP server package.",
+  "license": "MIT",
+  "dependencies": {
+    "@textile-designer-ai/mcp": "0.1.1"
+  }
+}
