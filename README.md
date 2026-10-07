@@ -52,6 +52,10 @@ Ask Claude things like "which tool should I use for a screen print?" or "how is 
 - Terms: https://www.textile-designer.ai/terms
 - Support: https://www.textile-designer.ai/contact
 
+## Security
+
+To report a security vulnerability in this plugin or the MCP server, write to us through https://www.textile-designer.ai/contact with "Security" in the subject. We acknowledge reports and fix confirmed issues in a new pinned release.
+
 ## License
 
 MIT, Copyright (c) 2026 Scientia AI Private Limited.
